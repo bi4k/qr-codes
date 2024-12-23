@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant des Dunes</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f4e8;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 400px;
+            width: 90%;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 0.9rem;
+            color: #777;
+            margin-bottom: 20px;
+        }
+
+        .link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: #333;
+            font-size: 1rem;
+            background: #f9f4e8;;
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            transition: background 0.3s, transform 0.2s;
+            position: relative;
+            gap: 10px;
+            border: 1px solid black;
+        }
+
+        .link i {
+            flex-shrink: 0;
+            font-size: 1.2rem;
+        }
+
+        .link span {
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        .link:hover {
+            background: #ddd;
+            transform: scale(1.05);
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.5rem;
+        }
+
+        .footer {
+            font-size: 0.8rem;
+            color: #999;
+            margin-top: 20px;
+        }
+
+        .footer-container {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        @media (min-width: 768px) {
+            .container {
+                max-width: 600px;
+                padding: 30px;
+            }
+
+            .title {
+                font-size: 2rem;
+            }
+
+            .subtitle {
+                font-size: 1rem;
+            }
+
+            .link {
+                font-size: 1.1rem;
+            }
+
+            .social-icons a {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="./assets/logo.webp" alt="Restaurant des Dunes Logo">
+        </div>
+        <div class="title">RESTAURANT DES DUNES</div>
+        <div class="subtitle">CUISINE CLASSIQUE DE QUALITÉ, MISE EN VALEUR DES SAVEURS AUTHENTIQUES.</div>
+
+        <a href="https://desduneserfoud.com/" class="link"><i class="fas fa-globe"></i><span>Site Web</span></a>
+        <a href="https://maps.app.goo.gl/fEEQxuCvEMcQGKhv8" class="link"><i class="fas fa-map-marker-alt"></i><span>Restaurant des Dunes - N13, Erfoud, Morocco</span></a>
+        <a href="https://www.tripadvisor.fr/Restaurant_Review-g317070-d1215728-Reviews-Cafe_restaurant_Des_Dunes-Erfoud_Meknes_Tafilalet_Region.html" class="link"><i class="fas fa-utensils"></i><span>Café-Restaurant des Dunes, Erfoud - Menu, Prix & Avis - Tripadvisor</span></a>
+
+        <div class="social-icons">
+            <a href="https://www.instagram.com/explore/locations/1016303171/restaurant-les-dunes/" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="mailto:contact@desduneserfoud.com" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="tel:+212 662-080925" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        </div>
+    </div>
+    <div class="footer-container">
+        <div class="footer">Business Intelligence 4K ©</div>
+    </div>
+</body>
+
+</html>
